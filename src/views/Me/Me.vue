@@ -3,8 +3,10 @@
     <div class="me-header">
       <div class="me-header-main">
         <div class="m-header-avatar">
-          <img src="//img11.360buyimg.com/jdphoto/s120x122_jfs/t5683/191/7076936752/5123/834e5571/596dd62bN7a8affc5.png">
-        </div> 
+          <img
+            src="//img11.360buyimg.com/jdphoto/s120x122_jfs/t5683/191/7076936752/5123/834e5571/596dd62bN7a8affc5.png"
+          />
+        </div>
 
         <div class="m-header-msg">
           <div class="mh-user-name">Vincent Du</div>
@@ -34,19 +36,20 @@
         <!-- <div class="me-links-item">
           <p class="have-nums">2</p>
           <p class="link-name">收藏夹</p>
-        </div> -->
+        </div>-->
       </div>
     </div>
 
-    <section class="me-act">
-
-    </section>
+    <section class="me-act"></section>
 
     <section class="block-area me-order">
       <div class="block-area-box">
         <div class="block-box-header">
           <p class="block-title">我的订单</p>
-          <p class="block-more">查看更多订单<icon name="arrow-right"></icon></p>
+          <p class="block-more">
+            查看更多订单
+            <icon name="arrow-right"></icon>
+          </p>
         </div>
 
         <ul class="block-box-cell">
@@ -106,7 +109,10 @@
       <div class="block-area-box">
         <div class="block-box-header">
           <p class="block-title">必备工具箱</p>
-          <p class="block-more">查看全部工具<icon name="arrow-right"></icon></p>
+          <p class="block-more">
+            查看全部工具
+            <icon name="arrow-right"></icon>
+          </p>
         </div>
 
         <ul class="block-box-cell">
@@ -195,7 +201,6 @@ import { Component, Vue } from 'vue-property-decorator';
 })
 export default class Me extends Vue {}
 </script>
-
 
 <style lang="scss" scoped>
 .me-wrap {
